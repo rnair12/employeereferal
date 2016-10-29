@@ -45,7 +45,7 @@
             if (restrictedPage && !loggedIn) {
                 $location.path('/login');
             }
-        });
+        }); 
     }
 
 })();
